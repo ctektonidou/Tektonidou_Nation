@@ -1,9 +1,9 @@
 Hello, my name is Chrysanthi Tektonidou, Because of some problems in last minute this is the best i could do in the deadline.
 In my entire project you can find:
-1. File named "Angular" where is my src from my angular part. Please run the below commands when open:
+1. File named "src" where is my src from my angular part. Please run the below commands when open:
 npm i
 ng serve
-2. In the file "Angular" you can find also my entire angular project compressed.Please run the below commands when open:
+2. In the file "tektonidou.rar" you can find also my entire angular project compressed.Please run the below commands when open:
 npm i
 ng serve
 3. File named "DataBase" where is my exported tables from MySQLWorkbench.
