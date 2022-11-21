@@ -1,0 +1,31 @@
+<div class="app_cont">
+    <div class="app-head">
+        <div class="hum">
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="menu icon" class="menu-but">
+        Menu
+      </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item [routerLink]="'countries/list'">
+          <mat-icon>dialpad</mat-icon>
+          <span>Countries</span>
+        </button>
+                <button mat-menu-item [routerLink]="'populations'">
+          <mat-icon>voicemail</mat-icon>
+          <span>Countries and populations</span>
+        </button>
+                <button mat-menu-item [routerLink]="'fields/list'">
+          <mat-icon>assessment</mat-icon>
+          <span>Multi Tables</span>
+        </button>
+            </mat-menu>
+            <div class="header-text">Countries App</div>
+            <div class="header-text">Tektonidou Chrysanthi</div>
+        </div>
+
+    </div>
+    <div class="app-body">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+<mat-spinner class="ms-spinner-margin" *ngIf="isSpinnerVisible" style="z-index: 999;"></mat-spinner>

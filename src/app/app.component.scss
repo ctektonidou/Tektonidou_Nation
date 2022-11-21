@@ -1,0 +1,133 @@
+.app_cont {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    .app-head {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+        background-color: #F5F5F5;
+        .hum {
+            left: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .menu-but {
+                background-color: #c000e3;
+                border: transparent;
+                color: white;
+                height: 100%;
+                width: 64px;
+                cursor: pointer;
+                border-radius: unset;
+            }
+            mat-icon {
+                transform: scale(2);
+            }
+        }
+        .header-text {
+            text-align: center;
+            font: 400 24px/30px "Roboto", sans-serif;
+            color: #3C3C3C;
+        }
+        .pull-right {
+            background-color: white;
+            display: flex;
+            height: 100%;
+            width: 230px;
+            align-items: center;
+            justify-content: center;
+            font: 400 24px/30px "Roboto", sans-serif;
+            color: #E3001C;
+            p {
+                display: flex;
+                align-items: center;
+                margin: 0px;
+            }
+        }
+    }
+    .app-body {
+        width: 100%;
+        margin-top: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: auto;
+        position: relative;
+        margin: auto;
+        box-sizing: border-box;
+        vertical-align: top;
+        padding: 0px 20px;
+        .app-body-left {
+            // width: 160px; media query
+            height: 100%;
+            overflow-x: hidden;
+            position: relative;
+            display: inline-block;
+            border-right: 1px solid #eee;
+            box-sizing: border-box;
+            vertical-align: top;
+            //min-width: 160px;
+            transition: width 0.5s, min-width 0.5s;
+            &.active {
+                width: 160px !important;
+                min-width: 160px;
+            }
+            .userSettings {
+                background-color: #eee;
+                padding: 5px 10px;
+                min-width: 160px;
+                span {
+                    font-size: 12px;
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .menu-login {
+                padding: 5px 0;
+                position: relative;
+                bottom: 0;
+                text-align: center;
+                width: 100%;
+            }
+        }
+        .app-body-right {
+            flex: auto;
+            height: 100%;
+            position: relative;
+            display: inline-block;
+            box-sizing: border-box;
+            vertical-align: top;
+            overflow: auto;
+        }
+    }
+    .buttons {
+        display: contents;
+        button {
+            background-color: #E3001C;
+            color: #FFFFFF;
+            width: 250px;
+            height: 50px;
+        }
+        button:disabled {
+            background-color: #F5F5F5;
+            color: #212529;
+        }
+    }
+}
+
+.ms-spinner-margin {
+    position: fixed;
+    left: 45%;
+    top: 45%;
+}
