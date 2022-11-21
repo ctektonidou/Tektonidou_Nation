@@ -1,0 +1,18 @@
+Hello, my name is Chrysanthi Tektonidou, Because of some problems in last minute this is the best i could do in the deadline.
+In my entire project you can find:
+1. File named "Angular" where is my src from my angular part. Please run the below commands when open:
+npm i
+ng serve
+2. In the file "Angular" you can find also my entire angular project compressed.Please run the below commands when open:
+npm i
+ng serve
+3. File named "DataBase" where is my exported tables from MySQLWorkbench.
+4. File named "Java" where is my entire java project.
+As i said before, there was a problem this weekend i had to face, so i chose to do one thing from every part in order not to be unfair to myself and show you that i do know how to do
+all the tasks. So i made the whole part in Java for "countries". Entity File, Facade, Controller, Routes and all needed files are in Source Package. In the same way i was going to do
+all the other tables in order to display them with Angular.So talking about Angular, i made the same desicion. I have made the UI for Countries , exactly like the task(display table for
+countries and after clicking one of them display all the spoken languages in another page). I did not succeed the connection between Java and Angular so i display data by adding tables 
+in ts files. However, my client.service file is ready, there are my calls and in my ts files i have in comment the code i was going to use if there was a connection.
+
+Thank you,
+Chrysanthi Tektonidou
